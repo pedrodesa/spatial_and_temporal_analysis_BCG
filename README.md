@@ -7,6 +7,6 @@ Esse é um produto realizado como consultoria para elaboração de políticas p�
 * **DADOS:** os dados utilizados são públicos e estão disponíveis no site do DATASUS do Ministério da Saúde (https://datasus.saude.gov.br/informacoes-de-saude-tabnet/)
 
 | Variável        | Tipo           |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:|
 | Cobertura vacinal da vacina BCG      | float |
 | Ano      | date      |
