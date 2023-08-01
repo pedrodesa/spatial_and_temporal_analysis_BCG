@@ -1,12 +1,15 @@
-# Análise espacial da vacinação BCG
+# Análise espaço-temporal da vacinação BCG
 
-Esse é um produto realizado como consultoria para elaboração de políticas públicas de saúde.
-
-* **OBJETIVO:** analisar a existências de agrupamentos espaciais das coberturas vacinais de BCG no Brasil entre os anos de 2019 a 2022.
+* **OBJETIVO:** predizer e analisar existências de agrupamentos espaciais da vacinação de BCG no Brasil entre os anos de 2019 a 2022.
 
 * **DADOS:** os dados utilizados são públicos e estão disponíveis no site do DATASUS do Ministério da Saúde (https://datasus.saude.gov.br/informacoes-de-saude-tabnet/)
 
 | Variável        | Tipo           |
 | ------------- |:-------------:|
+| Doses aplicadas de vacina BCG | int |
 | Cobertura vacinal da vacina BCG      | float |
-| Ano      | date      |
+| Data      | date      |
+
+## A análise está dividida em duas partes:
+1. [Analise de séries temporais e forecast das doses aplicadas da vacina BCG, entre janeiro de 2019 a dezembro de 2022](https://github.com/pedrodesa/spatio_temporal_BCGvaccination/blob/main/SCRIPT_time_series_analysis_BCG.R).
+2. [Análise de clusters espaciais das coberturas vacinais de BCG entre os anos de 2019 a 2022](https://github.com/pedrodesa/spatio_temporal_BCGvaccination/blob/main/SCRIPT_spatial_analysis_BCG.R).
